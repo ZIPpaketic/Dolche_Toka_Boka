@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <application
+        android:allowBackup="true"
+        android:dataExtractionRules="@xml/data_extraction_rules"
+        android:fullBackupContent="@xml/backup_rules"
+        android:icon="@drawable/ic_home_black_24dp"
+        android:label="@string/app_name"
+        android:roundIcon="@drawable/_082d510_da3c_4ab8_b880_ab5ee4d4e699"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.Dolce_Gash"
+        tools:targetApi="31">
+        <activity
+            android:name=".zxc6"
+            android:exported="false" />
+        <activity
+            android:name=".zxc5"
+            android:exported="false" />
+        <activity
+            android:name=".zxc4"
+            android:exported="false" />
+        <activity
+            android:name=".zxc3"
+            android:exported="false" />
+        <activity
+            android:name=".zxc2"
+            android:exported="false" />
+        <activity
+            android:name=".zxc1"
+            android:exported="true"
+            android:label="@string/app_name">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>
